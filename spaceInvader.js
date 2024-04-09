@@ -353,7 +353,7 @@ function spaceInvader (window, canvas) {
         SPACE: 32
     };
 
-    window.addEventListener('load', function() {
-        new Game();
-    });
+  document.getElementById("myBtn").addEventListener("click", function () {
+    new Game();
+  });
 }
