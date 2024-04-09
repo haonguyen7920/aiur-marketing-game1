@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid black;
+  background-image: url("https://raw.githubusercontent.com/haonguyen7920/aiur-marketing/main/uploads/game1FrInTheCosmo.jpg");
+  background-position: center;
+}
+
+img {
+  display: none;
+}
