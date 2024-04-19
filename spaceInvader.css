@@ -6,7 +6,7 @@ body {
 }
 canvas {
   border: 1px solid black;
-  background-image: url("https://raw.githubusercontent.com/haonguyen7920/aiur-marketing/main/uploads/game1FrInTheCosmo.jpg");
+  background-image: url("https://res.cloudinary.com/db85dpvaz/image/upload/aiur-marketing/thecosmo-vision_zkrqwx.jpg");
   background-position: center;
 }
 
