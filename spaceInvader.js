@@ -363,9 +363,4 @@ function keyPress (e) {
     canvasElm.setAttribute("tabindex", "0");
     canvasElm.focus();
   });
-     document.addEventListener("keydown", function(e) {
-     if (e.key === "Escape") { // escape key maps to keycode `27`
-       alert("sdfdf")
-    }
-})
 }
