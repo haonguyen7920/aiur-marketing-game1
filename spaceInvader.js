@@ -352,11 +352,6 @@ function spaceInvader (window, canvas) {
         RIGHT: 39,
         SPACE: 32
     };
-function keyPress (e) {
-    if(e.key === "Escape") {
-        // write your logic here.
-    }
-}
   document.getElementById("myBtn").addEventListener("click", function () {
     new Game();
     // var canvasElm = document.getElementById("space-invader");
