@@ -352,11 +352,20 @@ function spaceInvader (window, canvas) {
         RIGHT: 39,
         SPACE: 32
     };
-
+function keyPress (e) {
+    if(e.key === "Escape") {
+        // write your logic here.
+    }
+}
   document.getElementById("myBtn").addEventListener("click", function () {
     new Game();
     var canvasElm = document.getElementById("space-invader");
     canvasElm.setAttribute("tabindex", "0");
     canvasElm.focus();
   });
+     document.addEventListener("keydown", function(e) {
+     if (e.key === "Escape") { // escape key maps to keycode `27`
+       alert("sdfdf")
+    }
+})
 }
