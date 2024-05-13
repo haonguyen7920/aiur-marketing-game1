@@ -354,8 +354,8 @@ function spaceInvader (window, canvas) {
     };
   document.getElementById("myBtn").addEventListener("click", function () {
     new Game();
-    // var canvasElm = document.getElementById("space-invader");
-    // canvasElm.setAttribute("tabindex", "0");
-    // canvasElm.focus();
+    var canvasElm = document.getElementById("space-invader");
+    canvasElm.setAttribute("tabindex", "0");
+    canvasElm.focus();
   });
 }
